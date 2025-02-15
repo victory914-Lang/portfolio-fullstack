@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9686,7 +9687,36 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
-
+.contact {
+  width: 80%;
+  background-color: #060d13;
+  height: 450px;
+  padding: 50px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1000;
+}
+.contact-uptitle {
+  font-size: 100px !important;
+}
+.contact-title {
+  font-size: 35px;
+}
+.contact input {
+  background-color: rgba(229, 231, 235, 0.2);
+}
+.contact-textarea {
+  background-color: rgba(229, 231, 235, 0.2);
+}
+.contact button {
+  width: 150px;
+  height: 70px;
+  border-radius: 20px;
+  margin-left: 40%;
+  background-color: #002b80;
+  color: white;
+}
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
